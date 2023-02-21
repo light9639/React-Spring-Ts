@@ -24,9 +24,9 @@ yarn create vite
 - 리액트를 이용한 애니메이션을 만들 때 쓰는 `React-Spring`을 이용하여 애니메이션 효과를 구현할 것이다. 
 - 스타일링은 `SCSS`를 이용하며, `react-router-dom`을 이용하여 라우팅 기능을 구현해보겠다. 그럼, 아래의 명령어로 라이브러리를 설치한다.
 ```bash
-$ npm install @react-spring/parallax @react-spring/web react-use-gesture react-use-measure sass
+$ npm install @react-spring/parallax @react-spring/web react-use-gesture react-use-measure sass react-router-dom
 # or
-$ yarn add @react-spring/parallax @react-spring/web react-use-gesture react-use-measure sass
+$ yarn add @react-spring/parallax @react-spring/web react-use-gesture react-use-measure sass react-router-dom
 ```
 ## ✒️ App.tsx, main.tsx, index.css 수정 및 작성
 ### ⚡ App.tsx
@@ -156,8 +156,6 @@ export default function Header(): JSX.Element {
         flex-wrap: wrap;
     }
 }
-
-
 
 .Header span {
     font-size: 18px;
